@@ -1,0 +1,152 @@
+@charset "UTF_8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Kristi&family=Quicksand:wght@300;400;500;600&display=swap');
+
+*{  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cor1:#970000;
+    --cor2:#AD2109;
+}
+body{
+    font-family:'Quicksand', sans-serif ;
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: var(--cor1);
+ 
+}
+.icon
+{   
+    margin: 15px;
+    
+    height: 40px;
+    width:  40px;
+}
+#icon-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:0;
+    margin-right: 15px;    
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+/* Estilos CSS para o efeito parallax */
+ 
+.parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/imagemPizza.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateZ(0);
+    z-index: -1;
+}
+
+
+#facebok{
+    
+    height: 50px;
+    width: 50px;
+}
+main{
+    text-align: center;
+    font-weight: 100;
+    font-size:56px;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+#titulo{ 
+    font-size: 70px;
+    color: #e3e2e2;  
+    font-family: 'Kristi', cursive;
+}
+a{ 
+     font-size: 18px;
+     font-family: 'Quicksand', sans-serif;
+     color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    font-size: 15px;
+     
+    width:  19rem;
+    height: 19rem;
+    padding: 1rem;
+
+}
+.card{
+    width: 25rem;
+    background-color:  #D2B48C;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+.contato
+{   
+    font-size: 1em;
+}
+form{
+  
+ text-align: center;   
+}
+input{
+    height: 20px;
+    width: 200px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 10%;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+iframe{
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.647);
+}
+footer{
+    background-color: #970000;  
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.endereco{
+    font-size:1.5em;
+}

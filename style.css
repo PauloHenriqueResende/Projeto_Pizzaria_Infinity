@@ -93,6 +93,8 @@ main{
     margin: 1rem;;
     height: 230px;
     width: 230px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.513);
 }
  .conteudo{
     display: flex;
@@ -127,6 +129,21 @@ footer{
     height: 40vh;
    
 }
+/* Estilização dos icones do rodape */
+
+#listaContatos,li  {
+   display: flex;
+    
+}
+.icon-3{
+    height: 2rem;
+    width: 2rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+ 
+
 /* Esttilização do endereço rodape */
 .endereco{
     width: 50%;

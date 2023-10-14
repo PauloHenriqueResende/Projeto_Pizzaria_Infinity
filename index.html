@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="retrato.css"  media="screen and (orientation:portrait)" >
+    <link rel="stylesheet" href="paisagem.css" media="screen and (orientation:landscape)" >
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <a id="principal" href="index.html">Il Gusto Italiano</a>
         <!-- Icones do Header Ifood- Facebook - Instagram- Whatsapp -->
-        <!-- <div class="icons">
-            <a href="#"><img id="facebook" class="icon" src="img/icons8-facebook-50.png" alt=""></a>
-            <a href="#"><img class="icon" src="img/icons8-instagram-48.png" alt=""></a>
-            <a href="#"><img class="icon" src="img/icons8-whatsapp-50.png" alt=""></a>
-        </div> -->
+
         <!-- Icones do Header - IfoodLogo e Chapeu de Cheff -->
         <div id="icon-2">
-            <a href="#"><img class="icon"  src="img/ifood-logo-bran-gran-9800797.png" alt=""></a>
-            <a href="#comida"> <img class="icon" src="img/chapeu-de-chef.png"> </a> 
-            <p>Cardapio</p>
+            <a href="#"><img class="icon" id="iconeIfood" src="img/ifood-logo-bran-gran-9800797.png" alt="icone ifood"></a>
+            <a href="#comida"> <img id="iconeChapeu" class="icon" src="img/chapeu-de-chef.png"> </a> 
+            <p id="cardapio">Cardapio</p>
         </div>
     </header>
     <!-- Imagem Parallax -->
@@ -35,7 +33,7 @@
             <p>Produtos artesanais, exclusivos e naturais</p>
         </div>
         <!-- Div contendo os cards das pizzas e seus sabores diversificados -->
-        <div id="comida" class="content">
+        <div   class="content">
           <div class="conteudo" >
            <a href="#"> <img class="imagens" src="img/deliciosa-massa-no-prato.jpg" alt="imagem de um prato de macarrao"></a>
             <span>Cantina</span>
@@ -56,7 +54,7 @@
         <div>   
             <P>A sua comida de maneira tradicional Italiana</P>
              <br>
-              <video id="video"  autoplay    src="midias/video 1.mp4"></video>
+              <video id="video"  autoplay  controls   src="midias/video 1.mp4"></video>
         </div>
 
            

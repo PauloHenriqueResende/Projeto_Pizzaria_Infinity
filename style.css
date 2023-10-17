@@ -26,7 +26,7 @@
         background-color: var(--cor1);
         color: white;
         height: 8vh;
-        
+        padding: 1.5rem;
        }
 
        #principal{
@@ -38,9 +38,9 @@
 
     /* icones facebook, insta e wpp */
 .icon
-{   
+{    
     margin: 1rem;  
-    height: 6vh;
+    height: 2rem;
      
 }
 /* div de icones 2  chapeu de cheff ifood e texto */
@@ -89,7 +89,7 @@ main{
 /* titulo Pizzaria italiana */
 #titulo{ 
     font-size:  4.375rem;
-    color: #bab4b4;  
+    color: #adadade7;  
     font-family: 'Kristi', cursive;
 }
 
@@ -118,14 +118,13 @@ main{
  
  span{
     font-size: 2.3rem;
-    font-weight:350 ;
- }
- 
+    font-weight:400;}
+  
 
  /*  Estilizaçao do video de propaganda */
  #video{
-    width: 700px;
-    height: 395px;
+    width: auto;
+    height: 70%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.647);
  }
@@ -189,7 +188,7 @@ footer{
 }
  
 
-
+/* ESTILIZAÇÂO DA MEDIA QUERY PARA TELAS MENORES */
   @media (min-width:320px) and (max-width:950px) {
     #cardapio{
         display: none;

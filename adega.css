@@ -48,27 +48,20 @@
     }
 
     #img-1{
-        background-image: url('img/vinhosTaças.jpg'); 
-         background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 90%;
-        width:  60%;
-        padding: 5px;
-        margin-left: 2rem;
+         
+            
+  
+        width:  60%; 
         border-radius: 4px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.569);
     }
     
     #img-2{
-        background-image: url('img/garrafasVinho.jpg'); 
-         background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 80%;
-        width:  50%;;
-        padding: 5px;
-        margin-left: 2rem;
+         
+      
+  
+        width:  60%;;
+
         border-radius: 4px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.569);
     }
@@ -85,39 +78,71 @@
             display: none;
         }
         #imagem{
-            
-            background-image: url(img/taças\ balcao.jpg );
-            background-position:right  ;
+        
+            background-position: right ;
             background-size: cover;
             background-repeat: no-repeat;
-            
-            
+            z-index: -1;
+            padding: 9rem;
         }
         #imagem span{
-            font-size: 1rem;
-            white-space: nowrap;
-            color: rgba(216, 210, 210, 0.829);
-            text-align: center;
-            text-shadow: 0px 0px 7px #0000007a;
-            font-weight: 400;
+          font-size: small;   
+        }
+         h2{
+            display: none;
+         }
+        p{
+            font-size:0.5rem;
         }
 
         #content-1{
-            width: 100vw;
             display: flex;
             flex-direction: column;
+            justify-content: center ;
+            align-items: center;
+            padding: 0;
+            margin-top: 3rem;
+            height: 100%;
+        }
+        #img-1{
+             width: 60vw; 
+            height: 50%;
         }
         #content-2{
-            width: 100vw;
             display: flex;
             flex-direction: column;
+            justify-content: center ;
+            align-items: center;
+            padding: 0;
+            margin-top: 3rem;
+            height: 100%;
         }
-        .descricao h2{
-            font-size:  medium;
+        #img-2{
+            width: 60vw; 
+            height: 50%;
         }
-
-        .descricao p {
-            font-size: small;
+        .descricao{
+            padding:0rem;
+            margin-top: 1.5rem;
+        }
+        .descricao > p{
+            margin-top: 2rem;
+            font-size: 1.3rem;
+            text-align: start;
         }
         
+        .endereco h2{
+            font-size: 1.5rem;
+         }
+         .endereco h3{ font-size: 1rem;
+        
+         }
+         .icon-3{
+            height: 2rem;
+            width: 2rem;
+            margin-left:1rem;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+         
     }
